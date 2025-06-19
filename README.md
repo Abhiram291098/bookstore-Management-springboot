@@ -1,3 +1,12 @@
+---
+
+## 🌐 Live Deployment on AWS EC2
+
+This application is deployed and running on an AWS EC2 instance.  
+🔗 **Live URL**: http://18.191.239.43:8081  
+📌 Hosted on: Amazon EC2 Linux instance using `java -jar`
+
+---
 # 📚 Bookstore Management - Spring Boot Web App
 
 A simple CRUD-based Bookstore Management System built with **Spring Boot**, **Thymeleaf**, and **MySQL**. This project allows you to add, edit, delete, and list books via a modern web interface.
