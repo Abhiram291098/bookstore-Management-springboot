@@ -13,10 +13,10 @@ spec:
         app: bookstore
     spec:
       containers:
-      - name: bookstore
-        image: abhiramkumar2910/bookstore-app:latest
-        ports:
-        - containerPort: 8080
+        - name: bookstore
+          image: abhiramkumar2910/bookstore-app:latest
+          ports:
+            - containerPort: 8081
 ---
 apiVersion: v1
 kind: Service
@@ -28,8 +28,4 @@ spec:
     app: bookstore
   ports:
     - port: 80
-      targetPort: 8080
-
-      - name: Build with Gradle (skip tests)
-  run: ./gradlew clean build -x test
-
+      targetPort: 8081
